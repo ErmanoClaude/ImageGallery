@@ -1,1 +1,1 @@
-Updating an image gallery I made in a code tutorial to as JS
+Updating an image gallery I made in a code tutorial to add JS.  
