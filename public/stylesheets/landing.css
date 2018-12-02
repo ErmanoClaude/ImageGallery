@@ -60,15 +60,15 @@
 
 .heading{
   font-weight:400;
-  font-size: 1.4rem;
+  font-size: 1.0rem;
 }
 .sub-heading{
     font-weight:300;
-    font-size:1.07rem;
+    font-size:0.764705881rem;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 385px) {
+
+@media (min-width: 380px) {
     .heading{
       font-weight:400;
       font-size: 1.3rem;
