@@ -23,8 +23,7 @@
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 60%;
 }
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
@@ -55,7 +54,7 @@
 }
 @media only screen and (max-width: 700px){
     .modal-content {
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -68,8 +67,19 @@
     font-size:1.07rem;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 385px) {
+    .heading{
+      font-weight:400;
+      font-size: 1.3rem;
+    }
+    .sub-heading{
+        font-weight:300;
+        font-size:1rem;
+    }
+}
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
